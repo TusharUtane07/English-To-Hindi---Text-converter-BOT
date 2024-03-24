@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot that can Translate any english sentence to hindi",
+  "main": "index.js",
+"type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Tushar Utane",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^9.2.0",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "google-translate-api": "^2.3.0",
+    "node-telegram-bot-api": "^0.65.1",
+    "nodemon": "^3.1.0",
+    "telegraf": "^4.16.3"
+  }
+}
